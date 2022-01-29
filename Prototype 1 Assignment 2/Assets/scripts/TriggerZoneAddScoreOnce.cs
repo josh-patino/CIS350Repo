@@ -1,3 +1,8 @@
+/*
+*Josh Patino
+*Assignment 2, Prototype 1 
+*If player hits the trigger, accurately add 1 to the score
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

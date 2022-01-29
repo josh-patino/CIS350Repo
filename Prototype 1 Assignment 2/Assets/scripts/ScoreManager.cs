@@ -1,3 +1,8 @@
+/*
+*Josh Patino
+*Assignment 2, Prototype 1 
+*keeps track of the score, and checks conditions to end the game
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

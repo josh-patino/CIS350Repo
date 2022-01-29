@@ -1,3 +1,8 @@
+/*
+*Josh Patino
+*Assignment 2, Prototype 1 
+*detects if the player fell off the world, and ends the game
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

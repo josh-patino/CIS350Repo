@@ -1,3 +1,9 @@
+/*
+*Josh Patino
+*Assignment 2, Prototype 1 
+*controls the player
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
