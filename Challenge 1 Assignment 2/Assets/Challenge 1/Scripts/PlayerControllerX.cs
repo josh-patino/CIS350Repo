@@ -1,3 +1,8 @@
+/*
+*Josh Patino
+*Assignment 2, Challenge 1 
+*player controls file
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,8 @@
+/*
+*Josh Patino
+*Assignment 2, Challenge 1 
+*this file lets the camera follow the player
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

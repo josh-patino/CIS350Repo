@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+*Josh Patino
+*Assignment 2, Challenge 1 
+*makes sure that only once is the trigger able to be hit
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

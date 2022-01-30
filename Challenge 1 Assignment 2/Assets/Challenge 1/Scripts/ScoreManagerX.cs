@@ -1,3 +1,8 @@
+/*
+*Josh Patino
+*Assignment 2, Challenge 1 
+*works the score manager, different actions affect the score
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

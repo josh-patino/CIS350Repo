@@ -1,3 +1,8 @@
+/*
+*Josh Patino
+*Assignment 2, Challenge 1 
+* increase the score when the player hits a trigger
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

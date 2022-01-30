@@ -1,3 +1,8 @@
+/*
+*Josh Patino
+*Assignment 2, Challenge 1 
+*file responsible when a player goes below -51 or above 81
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

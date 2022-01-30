@@ -1,3 +1,8 @@
+/*
+*Josh Patino
+*Assignment 2, Challenge 1 
+*allows the propeller to spin on the plane
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
