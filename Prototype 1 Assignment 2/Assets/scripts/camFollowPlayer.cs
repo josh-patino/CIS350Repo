@@ -1,3 +1,8 @@
+/*
+*Josh Patino
+*Assignment 2, Prototype 1 
+*camera that follows player
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
