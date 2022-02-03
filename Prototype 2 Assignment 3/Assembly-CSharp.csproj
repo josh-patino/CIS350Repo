@@ -53,8 +53,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\DestroyOutOfBounds.cs" />
+     <Compile Include="Assets\Scripts\DetectCollisions.cs" />
      <Compile Include="Assets\Scripts\MoveForward.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\ShootPrefab.cs" />
+     <Compile Include="Assets\Scripts\SpawnManager.cs" />
      <None Include="Assets\Course Library\_Source_Files\_LICENSE.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/joshuapatino/Desktop/Spring 2022/CIS 350/Github_stuff/CIS350Repo/Prototype 2 Assignment 3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
