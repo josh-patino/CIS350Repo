@@ -79,17 +79,17 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4
-        width: 314
-        height: 257
+        y: 0
+        width: 339.5
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 24, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50a6ff4f9dd5247248d3147271254e38
+      spriteID: 6c46200e641e14e478f9a8948f51095e
       vertices: []
       indices: 
       edges: []
@@ -98,18 +98,18 @@ TextureImporter:
       name: Heart_1
       rect:
         serializedVersion: 2
-        x: 365
+        x: 359
         y: 0
-        width: 313
-        height: 257
+        width: 319
+        height: 261
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94a3906ec88d9499eaa9f4dc26b826c7
+      spriteID: aa006f7a0072d41a8bfe804b99dde1b2
       vertices: []
       indices: 
       edges: []

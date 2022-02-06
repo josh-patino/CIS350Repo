@@ -6,6 +6,12 @@ public class DestroyOutOfBoundsX : MonoBehaviour
 {
     private float leftLimit = -41;
     private float bottomLimit = 0;
+    private HealthSystemX healthSystemScript;
+
+    private void Start()
+    {
+        healthSystemScript = GameObject.FindGameObjectWithTag("HealthSystem").GetComponent<HealthSystemX>(); 
+    }
 
     // Update is called once per frame
     void Update()
@@ -18,6 +24,7 @@ public class DestroyOutOfBoundsX : MonoBehaviour
         // Destroy balls if y position is less than bottomLimit
         else if (transform.position.y < bottomLimit)
         {
+            healthSystemScript.TakeDamage(); 
             Destroy(gameObject);
         }
 

@@ -55,6 +55,8 @@
   <ItemGroup>
      <Compile Include="Assets\Challenge 2\Scripts\DestroyOutOfBoundsX.cs" />
      <Compile Include="Assets\Challenge 2\Scripts\DetectCollisionsX.cs" />
+     <Compile Include="Assets\Challenge 2\Scripts\DisplayScoreX.cs" />
+     <Compile Include="Assets\Challenge 2\Scripts\HealthSystemX.cs" />
      <Compile Include="Assets\Challenge 2\Scripts\MoveForwardX.cs" />
      <Compile Include="Assets\Challenge 2\Scripts\PlayerControllerX.cs" />
      <Compile Include="Assets\Challenge 2\Scripts\SpawnManagerX.cs" />
