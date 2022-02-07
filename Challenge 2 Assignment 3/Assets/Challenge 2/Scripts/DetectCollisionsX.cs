@@ -15,7 +15,7 @@ public class DetectCollisionsX : MonoBehaviour
     {
         displayScoreScript.score++;
         Destroy(other.gameObject); // destroy animal
-        Destroy(gameObject); //destroy food
+        //Destroy(gameObject); //destroy food
         
         //Destroy(gameObject); //destroy food
     }
