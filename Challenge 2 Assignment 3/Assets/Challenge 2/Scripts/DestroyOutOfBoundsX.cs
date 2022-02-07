@@ -1,3 +1,8 @@
+/*
+*Josh Patino
+*Assignment 3, Prototype 2 
+* destroys out of bound objects, both the dogs and balls
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

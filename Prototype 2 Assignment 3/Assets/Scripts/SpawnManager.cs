@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+*Josh Patino
+*Assignment 3, Prototype 2 
+* managaes the spawn system for the prototype
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 //stopped at 1:27:23

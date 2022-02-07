@@ -1,3 +1,8 @@
+/* 
+*Josh Patino
+*Assignment 3, Prototype 2 
+* manages the spawn system for the balls
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

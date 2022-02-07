@@ -1,4 +1,9 @@
-﻿//This script is based on https://www.youtube.com/watch?v=3uyolYVsiWc
+﻿/*
+*Josh Patino
+*Assignment 3, Prototype 2 
+* health system script from canvas
+*/
+//This script is based on https://www.youtube.com/watch?v=3uyolYVsiWc
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+*Josh Patino
+*Assignment 3, Challenge 2 
+* script for player shooting the balls
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

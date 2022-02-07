@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+*Josh Patino
+*Assignment 3, Prototype 2 
+* script responsible for detecting collisons between objects
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

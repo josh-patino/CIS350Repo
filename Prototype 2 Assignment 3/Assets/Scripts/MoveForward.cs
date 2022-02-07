@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+*Josh Patino
+*Assignment 3, Prototype 2 
+* moves the character forward
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
