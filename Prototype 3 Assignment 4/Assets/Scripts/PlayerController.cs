@@ -1,4 +1,9 @@
-﻿using System.Collections;
+﻿/*
+* Josh Patino
+* Prototype 3 Assignment 4
+* controls the player movement, c
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
