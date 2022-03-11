@@ -1,4 +1,10 @@
-﻿using System.Collections;
+/*
+ * Josh Patino
+ * 5A
+ * UIManager that wasnt used
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
