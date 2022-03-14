@@ -1,3 +1,8 @@
+/*
+* Josh Patino
+*  5B
+* controls shooting mechanics 
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

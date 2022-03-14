@@ -1,3 +1,8 @@
+/*
+* Josh Patino
+*  5B
+* controls the target behavior 
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,8 @@
+/*
+* Josh Patino
+*  5B
+* contorls the text display
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
