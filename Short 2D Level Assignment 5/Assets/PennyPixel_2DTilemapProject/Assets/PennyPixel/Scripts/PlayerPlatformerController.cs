@@ -1,4 +1,10 @@
-﻿using System.Collections;
+/*
+ * Josh Patino
+ * 5A
+ * file for the controller
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; 
