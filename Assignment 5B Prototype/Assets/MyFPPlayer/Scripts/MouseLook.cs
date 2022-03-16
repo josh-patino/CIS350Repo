@@ -1,3 +1,8 @@
+/*
+* Josh Patino
+*  5B
+* controls to look with the mouse 
+*/
 using System.Reflection;
 using System.Collections;
 using System.Collections.Generic;
