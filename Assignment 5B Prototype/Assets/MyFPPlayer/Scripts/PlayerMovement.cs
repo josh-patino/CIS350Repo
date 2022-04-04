@@ -7,48 +7,43 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class Move : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public CharacterController controller; 
-    public float speed = 12f;
+public float forwardsForce = 40f;
+public float sidewaysForce = 40f;
+public Vector3 up;
+public Vector3 down;
+public float jumpForce = 4f;
 
-    public Vector3 velocity;
-    public float gravity = -9.81f; 
-    public float gravityMultiplier = 2f; 
-    void Awake(){gravity *= gravityMultiplier;}
-    public Transform groundCheck; 
-    public float groundDistance = 0.4f; 
-    public LayerMask groundMask; 
-    public bool isGrounded; 
-    public float jumpHeight = 3f; 
-    
+public Rigidbody rb;
 
+void Start()
+{
+    up = new Vector3(0.0f, 2f, 0.0f);
+    down = new Vector3(0.0f, -2f, 0.0f);
+}
+void Update()
+{
+    MovePlayer();
+}
 
-    // Update is called once per frame
-    void Update()
+void MovePlayer()
+{
+    if (Input.GetKey(KeyCode.W))
     {
-        isGrounded = Physics.CheckSphere(groundCheck.position,groundDistance, groundMask); 
-
-        if (isGrounded && velocity.y < 0)
-        {
-            velocity.y = -2f; 
-        }
-
-
-        float x = Input.GetAxis("Horizontal");    
-        float z = Input.GetAxis("Vertical");    
-
-        Vector3 move = transform.right * x + transform.forward * z;
-        controller.Move(move * speed * Time.deltaTime);
-
-        if (Input.GetButtonDown("Jump") && isGrounded)
-        {
-            velocity.y= Mathf.Sqrt(jumpHeight * -2f * gravity); 
-        }
-
-        velocity.y += gravity * Time.deltaTime; 
-        controller.Move(velocity * Time.deltaTime); 
-
+        rb.AddForce(up * jumpForce, ForceMode.Impulse);
     }
+    if (Input.GetKey(KeyCode.S))
+    {
+        rb.AddForce(down * jumpForce, ForceMode.Impulse);
+    }
+    if (Input.GetKey(KeyCode.A))
+    {
+        rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+    }
+    if (Input.GetKey(KeyCode.D))
+    {
+        rb.AddForce(sidewaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+    }
+}
 }
