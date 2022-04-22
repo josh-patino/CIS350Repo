@@ -16,13 +16,15 @@ public class SpawnManager : MonoBehaviour
     private float leftBound = -14; 
     private float rightbound = 14; 
     private float spawnPosZ = 20;  
+    public float minRangeInSec = 0.8f; 
+    public float maxRangeInSec = 2.0f; 
 
     public HealthSystem healthSystem; 
 
     void Start()
     {
         //get a ref to hralth system script
-        healthSystem = GameObject.FindGameObjectWithTag("HealthSystem").GetComponent<HealthSystem>(); 
+        //healthSystem = GameObject.FindGameObjectWithTag("HealthSystem").GetComponent<HealthSystem>(); 
         StartCoroutine(SpawnRandomPrefabWtihCoroutine());         
     }
 
@@ -34,7 +36,7 @@ public class SpawnManager : MonoBehaviour
         {
             SpawnRandomPreFab();
 
-            float randomDelay = Random.Range(0.8f, 2.0f); 
+            float randomDelay = Random.Range(minRangeInSec, maxRangeInSec); 
 
             yield return new WaitForSeconds(randomDelay);
         }

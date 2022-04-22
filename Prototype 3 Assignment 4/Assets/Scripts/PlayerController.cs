@@ -9,7 +9,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public AudioClip jumpSound; p
+    public AudioClip jumpSound; 
     public AudioClip crashSound; 
     private AudioSource playerAudio; 
     public ParticleSystem explosionParticle; 
