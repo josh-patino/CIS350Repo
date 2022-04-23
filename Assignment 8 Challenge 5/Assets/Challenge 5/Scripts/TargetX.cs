@@ -1,4 +1,9 @@
-﻿using System.Collections;
+/*
+* Joshua Patino
+* Assignment 8 Challenge 5
+* tartget system for destroying the targets on a mouse click 
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
