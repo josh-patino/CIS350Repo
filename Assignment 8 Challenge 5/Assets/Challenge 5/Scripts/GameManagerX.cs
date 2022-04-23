@@ -1,4 +1,9 @@
-﻿using System.Collections;
+/*
+* Joshua Patino
+* Assignment 8 Challenge 5
+*manages the game, starting, and ending the game
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
