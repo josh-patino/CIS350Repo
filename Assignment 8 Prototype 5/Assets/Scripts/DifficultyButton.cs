@@ -1,4 +1,9 @@
-﻿using System.Collections;
+/*
+* Joshua Patino
+* Assignment 8 Prototype 5
+* responsible for difficulty button
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; 

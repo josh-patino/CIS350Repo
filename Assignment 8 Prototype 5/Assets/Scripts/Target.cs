@@ -1,4 +1,9 @@
-﻿using System.Collections;
+/*
+* Joshua Patino
+* Assignment 8 Prototype 5
+* responlsible for the targes in the game, deleting them too
+*/
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 

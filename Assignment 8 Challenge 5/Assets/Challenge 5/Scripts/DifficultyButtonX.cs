@@ -1,4 +1,9 @@
-﻿using System.Collections;
+/*
+* Joshua Patino
+* Assignment 8 Challenge 5
+* difficulty button implementation
+*/﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
